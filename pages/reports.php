@@ -89,7 +89,7 @@
             
 
             <?php
-                $con = @mysqli_connect('localhost', 'Test', 'thomas89', 'Test');
+                $con = @mysqli_connect('localhost', 'Test', 'Test', 'Test');
                 if (!$con) {
                     $success = false;
                     exit();
