@@ -99,8 +99,7 @@
                 if(isset($_POST['submit'])){
                     $success = true;
 
-                    $con = @mysqli_connect('localhost', 'root', 'secret', 'test');
-                    //$con = @mysqli_connect('localhost', 'Test', 'thomas89', 'Test');
+                    $con = @mysqli_connect('localhost', 'Test', 'Test', 'Test');
                     if (!$con) {
                         $success = false;
                         echo "Failed to connect to MySQL: " . mysqli_connect_error();
